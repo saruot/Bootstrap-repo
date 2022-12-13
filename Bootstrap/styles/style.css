@@ -1,0 +1,25 @@
+.col{
+    border: 2px solid black;
+    padding: none;
+    margin: none;
+}
+#row1{
+    height: 6vh;
+    margin-bottom: 1vh;
+}
+#row2{
+    height: 46vh;
+    margin-bottom: 0.5vh;
+
+}
+#row3{
+    height: 46vh;
+
+}
+.p-5{
+    height: 46vh;
+}
+
+body{
+    background-color: #292b2c;
+}
