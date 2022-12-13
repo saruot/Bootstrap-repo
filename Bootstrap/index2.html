@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap sivusto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Bootstrap/styles/infostyle.css">
+    <script defer src="./infoscript.js"></script>
+</head>
+<body>
+    <!-- REMINDER TO SELF
+        TEE TÄSTÄ SIVUSTA MUISTIINPANOT SIVU, SAMALLA TAVALLA KUIN
+        AIKAISEMMIN TEHTY JS TEHTÄVÄ
+        HYÖDYNNÄ JOTENKIN SITÄ VITUN SCSS:ÄÄ ETTÄ SEKI PASKA TULEE TEHTYÄ
+        GGTYVM
+    -->
+    <div class="container">
+        <div class="row row1">
+            <div class="container">
+                <div class="row" id="row1">
+                  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+                    <!-- Container wrapper -->
+                    <div class="container-fluid">
+                      <!-- Toggle button -->
+                      <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-toggle="collapse"
+                        data-mdb-target="#navbarCenteredExample"
+                        aria-controls="navbarCenteredExample"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <i class="fas fa-bars"></i>
+                      </button>
+                  
+                      <!-- Collapsible wrapper -->
+                      <div
+                        class="collapse navbar-collapse justify-content-center"
+                        id="navbarCenteredExample"
+                      >
+                        <!-- Left links -->
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index1.html">Visapeli</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Etusivu</a>
+                          </li>
+                          <!-- Navbar dropdown -->
+                        
+                        
+                        </ul>
+                        <!-- Left links -->
+                      </div>
+                      <!-- Collapsible wrapper -->
+                    </div>
+                    <!-- Container wrapper -->
+                  </nav>
+                </div>
+
+        </div>
+        <!-- Muistiinpano osuus alkaa -->
+        <div class="row">
+            <div class="col"> 
+                <h1>Syötä nimesi!</h1>
+                <input id="name" type="text">
+            </div>
+            <div class="col" id="note1"></div>
+            <div class="col" id="note2"></div>
+            <div class="col" id="note3"></div>
+
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2>Kirjoita muistiinpanosi!</h2>
+                <input id="note" type="text" >
+                
+                <p id="important-checkbox">
+                <input id="checkbox" type="checkbox"> Tärkeä!
+                </p>
+            <button id="megabutton">Lisää muistiinpano!</button>
+            </div>
+            <div class="col" id="note4"></div>
+            <div class="col" id="note5"></div>
+            <div class="col" id="note6"></div>
+        </div>
+        <div class="row">
+        
+            <div class="col">
+                <p>
+                    Tervetuloa hyödyttömiin muistiinpanoihin! 
+                </p>
+                <p>   Tämä sivu poistaa tekemäsi muistiinpanot siltä poistumisen
+                    jälkeen!
+                </p> 
+                <p>
+                    Erittäin hyödytöntä! Kokeile ihmeessä!
+                </p>
+               
+            </div>
+            <div class="col "id="note7"></div>
+            <div class="col "id="note8"></div>
+            <div class="col "id="note9"></div>
+        </div>
+            <!-- Muistiinpanot loppuu -->
+    </div>
+</body>
+</html>

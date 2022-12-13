@@ -1,0 +1,39 @@
+.col{
+    max-height: fit-content;
+}
+
+.row{
+    height: 29vh;
+}
+
+#row1{
+    height: max-content;
+    padding-bottom: 10vh;
+    border: none;
+}
+
+
+button{
+    display: inline-block;
+    background-color: cyan;
+    color: black
+}
+
+
+
+.redborders{
+    border: 1px solid red;
+}
+
+p{
+    text-justify: auto;
+    margin: none;
+    padding: none ;
+}
+body{
+    background-color: #292b2c;
+    color: white;
+}
+.nav-link:hover{
+    background-color: #292b2c;
+}
