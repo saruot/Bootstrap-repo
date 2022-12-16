@@ -25,7 +25,7 @@ html{
     height: 100vh;
 }
 .offcanvas{
-    background-image: url(/Bootstrap/images/workplace-g4e36d3dde_1920.jpg);
+    background-image: url(../../Bootstrap/images/workplace-g4e36d3dde_1920.jpg);
     background-size: cover;
     color: black;
 }
@@ -33,7 +33,7 @@ html{
 body {
     font-family: "Sono";
     font-weight: 500;
-    background-image: url(/Bootstrap/images/black-g4ec6f0509_1920.jpg);
+    background-image: url(../../Bootstrap/images/black-g4ec6f0509_1920.jpg);
     color: white;
     height: 100vh;
 }
