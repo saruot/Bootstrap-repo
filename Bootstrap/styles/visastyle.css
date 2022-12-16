@@ -155,3 +155,7 @@ h1, p {
 a:hover{
     background-color: cyan;
 }
+
+#answer-row1+.answer-div{
+    background-color: grey;
+}

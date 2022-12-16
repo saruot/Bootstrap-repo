@@ -24,6 +24,15 @@ body{
     background-color: #292b2c;
 }
 
-h4:hover{
-    color: rgba(0, 0, 0, 0.527);
-}
+
+/* Use at least the following selectors in your CSS: +, >, [ ], ~. 
+    Use some pseudo selectors.
+    Use Less/Sass. You have to include at least one of the following: variables, mixins and operations.
+ */
+ div>h1{
+    color: black;
+ }
+ .btn[href*="./"]:hover{
+    color: cyan
+ }
+

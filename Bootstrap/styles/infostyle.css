@@ -1,39 +1,50 @@
-.col{
-    max-height: fit-content;
+@charset "UTF-8";
+/* Käytetty @mixin luomaan tyyli tärkeälle muistiinpanolle*/
+.col {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
 }
 
-.row{
-    height: 29vh;
+.row {
+  height: 29vh;
 }
 
-#row1{
-    height: max-content;
-    padding-bottom: 10vh;
-    border: none;
+#row1 {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 10vh;
+  border: none;
 }
 
-
-button{
-    display: inline-block;
-    background-color: cyan;
-    color: black
+button {
+  display: inline-block;
+  background-color: cyan;
+  color: black;
 }
 
-
-
-.redborders{
-    border: 1px solid red;
+.redborders {
+  border: 1px solid red;
+}
+.redborders h2 {
+  color: red;
+}
+.redborders p {
+  color: cyan;
 }
 
-p{
-    text-justify: auto;
-    margin: none;
-    padding: none ;
+p {
+  text-justify: auto;
+  margin: none;
+  padding: none;
 }
-body{
-    background-color: #292b2c;
-    color: white;
+
+body {
+  background-color: #292b2c;
+  color: white;
 }
-.nav-link:hover{
-    background-color: #292b2c;
-}
+
+.nav-link:hover {
+  background-color: #292b2c;
+}/*# sourceMappingURL=infostyle.css.map */
