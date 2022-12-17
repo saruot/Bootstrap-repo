@@ -24,6 +24,9 @@ body{
     background-color: #292b2c;
 }
 
+a:hover{
+    font-weight: bolder;
+}
 
 /* Use at least the following selectors in your CSS: +, >, [ ], ~. 
     Use some pseudo selectors.
